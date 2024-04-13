@@ -21,7 +21,7 @@ Books Consulting App is a mobile application that allows users to search for boo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/books-consulting-app.git
+   git clone https://github.com/anaserrami/books-consulting-app.git
     ```
 2. Open the project in Android Studio.
 3. Build and run the project on an Android emulator or device.
