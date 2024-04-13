@@ -1,6 +1,6 @@
 # Books Consulting App
 
-Books Consulting App is a mobile application that allows users to search for books using the Google Books API and view details about the books, including title, authors, description, and cover image.
+Books Consulting App is a mobile application that allows users to search for books using the Google Books API and view details about the books, including title, authors, description.
 
 ## Features
 
