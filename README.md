@@ -14,7 +14,6 @@ Books Consulting App is a mobile application that allows users to search for boo
 - Retrofit (for API calls)
 - Gson (for JSON serialization/deserialization)
 - Picasso (for image loading)
-- Android SDK
 
 ## Installation
 
