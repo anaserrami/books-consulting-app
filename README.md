@@ -1,6 +1,6 @@
 # Books Consulting App
 
-Books Consulting App is a mobile application that allows users to search for books using the Google Books API and view details about the books, including title, authors, description, and cover image.
+Books Consulting App is a mobile application that allows users to search for books using the Google Books API and view details about the books, including title, authors, description.
 
 ## Features
 
@@ -14,14 +14,13 @@ Books Consulting App is a mobile application that allows users to search for boo
 - Retrofit (for API calls)
 - Gson (for JSON serialization/deserialization)
 - Picasso (for image loading)
-- Android SDK
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/books-consulting-app.git
+   git clone https://github.com/anaserrami/books-consulting-app.git
     ```
 2. Open the project in Android Studio.
 3. Build and run the project on an Android emulator or device.
@@ -34,6 +33,4 @@ Books Consulting App is a mobile application that allows users to search for boo
 
 ## Screenshots
 
-![img.png](img.png)
-
-![img_1.png](img_1.png)
+![img.png](assets/img.png) &nbsp; &nbsp; &nbsp; &nbsp; ![img_1.png](assets/img_1.png)
