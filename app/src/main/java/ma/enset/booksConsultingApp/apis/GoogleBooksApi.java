@@ -1,6 +1,6 @@
-package ma.enset.tprestapibdcc.apis;
+package ma.enset.booksConsultingApp.apis;
 
-import ma.enset.tprestapibdcc.models.GoogleBooksResponse;
+import ma.enset.booksConsultingApp.models.GoogleBooksResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

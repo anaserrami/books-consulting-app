@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ma.enset.tprestapibdcc"
+    namespace = "ma.enset.booksConsultingApp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "ma.enset.tprestapibdcc"
+        applicationId = "ma.enset.booksConsultingApp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

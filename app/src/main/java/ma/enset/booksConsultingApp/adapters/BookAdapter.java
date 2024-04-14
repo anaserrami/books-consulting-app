@@ -1,4 +1,4 @@
-package ma.enset.tprestapibdcc.adapters;
+package ma.enset.booksConsultingApp.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import com.squareup.picasso.Picasso;
 import java.util.List;
-import ma.enset.tprestapibdcc.R;
-import ma.enset.tprestapibdcc.models.Book;
+import ma.enset.booksConsultingApp.R;
+import ma.enset.booksConsultingApp.models.Book;
 
 public class BookAdapter extends ArrayAdapter<Book> {
 

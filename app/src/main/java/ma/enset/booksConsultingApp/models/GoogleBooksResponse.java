@@ -1,4 +1,4 @@
-package ma.enset.tprestapibdcc.models;
+package ma.enset.booksConsultingApp.models;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;

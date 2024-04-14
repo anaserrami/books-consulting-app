@@ -1,4 +1,4 @@
-package ma.enset.tprestapibdcc;
+package ma.enset.booksConsultingApp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -12,11 +12,12 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.util.ArrayList;
 import java.util.List;
-import ma.enset.tprestapibdcc.activities.BookDetailActivity;
-import ma.enset.tprestapibdcc.adapters.BookAdapter;
-import ma.enset.tprestapibdcc.models.Book;
-import ma.enset.tprestapibdcc.models.GoogleBooksResponse;
-import ma.enset.tprestapibdcc.apis.GoogleBooksApi;
+import ma.enset.booksConsultingApp.activities.BookDetailActivity;
+import ma.enset.booksConsultingApp.adapters.BookAdapter;
+import ma.enset.booksConsultingApp.models.Book;
+import ma.enset.booksConsultingApp.models.GoogleBooksResponse;
+import ma.enset.booksConsultingApp.apis.GoogleBooksApi;
+import ma.enset.booksConsultingApp.R;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

@@ -1,18 +1,15 @@
-package ma.enset.tprestapibdcc.activities;
+package ma.enset.booksConsultingApp.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.squareup.picasso.Picasso;
-
-import ma.enset.tprestapibdcc.R;
-import ma.enset.tprestapibdcc.models.Book;
+import ma.enset.booksConsultingApp.R;
+import ma.enset.booksConsultingApp.models.Book;
 
 public class BookDetailActivity extends AppCompatActivity {
     @Override

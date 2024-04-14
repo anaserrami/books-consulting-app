@@ -1,4 +1,4 @@
-package ma.enset.tprestapibdcc;
+package ma.enset.booksConsultingApp;
 
 import org.junit.Test;
 
