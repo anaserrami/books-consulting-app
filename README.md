@@ -33,14 +33,18 @@ Books Consulting App is a mobile application that allows users to search for boo
 
 ## Screenshots
 
-- Search for books by entering keywords in the search bar.
+- Search for books by entering keywords in the search bar :
+
 ![img1.png](assets/img1.png)
 
-- View a list of books matching the search criteria.
+- View a list of books matching the search criteria :
+
 ![img2.png](assets/img2.png)
 
-- View detailed information about each book, including title, authors, description.
+- View detailed information about each book, including title, authors, description :
+
 ![img3.png](assets/img3.png)
 
-- Share the book with friends.
+- Share the book with friends :
+
 ![img4.png](assets/img4.png)
