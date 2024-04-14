@@ -1,8 +1,9 @@
 package ma.enset.tprestapibdcc.models;
 
 import com.google.gson.annotations.SerializedName;
+import java.io.Serializable;
 
-public class ImageLinks {
+public class ImageLinks implements Serializable {
     @SerializedName("smallThumbnail")
     private String smallThumbnail;
     @SerializedName("thumbnail")

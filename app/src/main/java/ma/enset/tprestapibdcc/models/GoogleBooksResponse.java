@@ -1,10 +1,10 @@
 package ma.enset.tprestapibdcc.models;
 
 import com.google.gson.annotations.SerializedName;
-
+import java.io.Serializable;
 import java.util.List;
 
-public class GoogleBooksResponse {
+public class GoogleBooksResponse implements Serializable {
     @SerializedName("kind")
     private String kind;
     @SerializedName("totalItems")

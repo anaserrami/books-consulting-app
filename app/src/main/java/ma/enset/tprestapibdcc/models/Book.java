@@ -1,8 +1,9 @@
 package ma.enset.tprestapibdcc.models;
 
 import com.google.gson.annotations.SerializedName;
+import java.io.Serializable;
 
-public class Book {
+public class Book implements Serializable {
     @SerializedName("volumeInfo")
     private VolumeInfo volumeInfo;
 

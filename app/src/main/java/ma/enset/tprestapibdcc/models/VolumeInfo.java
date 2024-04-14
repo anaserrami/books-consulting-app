@@ -1,10 +1,10 @@
 package ma.enset.tprestapibdcc.models;
 
 import com.google.gson.annotations.SerializedName;
-
+import java.io.Serializable;
 import java.util.List;
 
-public class VolumeInfo {
+public class VolumeInfo implements Serializable {
     @SerializedName("title")
     private String title;
     @SerializedName("authors")

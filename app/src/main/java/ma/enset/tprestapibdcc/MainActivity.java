@@ -1,6 +1,7 @@
 package ma.enset.tprestapibdcc;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
@@ -11,6 +12,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.util.ArrayList;
 import java.util.List;
+import ma.enset.tprestapibdcc.activities.BookDetailActivity;
 import ma.enset.tprestapibdcc.adapters.BookAdapter;
 import ma.enset.tprestapibdcc.models.Book;
 import ma.enset.tprestapibdcc.models.GoogleBooksResponse;
@@ -65,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Connection Error", Toast.LENGTH_SHORT);
                 }
             });
+        });
+        listViewBooks.setOnItemClickListener((adapterView, view, i, l) -> {
+            Intent intent = new Intent(getApplicationContext(), BookDetailActivity.class);
+            intent.putExtra("book", books.get(i));
+            startActivity(intent);
         });
     }
 }
